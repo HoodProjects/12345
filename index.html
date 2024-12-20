@@ -29,15 +29,16 @@
         }
 
         .main-content {
-            text-align: center; /* Center text inside the main content */
+            text-align: left; /* Left-align text inside the main content for consistency */
             padding-top: 50px; /* Add padding at the top */
+            margin-left: 20px; /* Adds some left margin to keep content from touching the edge */
         }
 
         .cheat-box {
             background-color: rgba(255, 213, 233, 0.8); /* Similar color as title */
             border-radius: 10px; /* Rounded corners */
             padding: 20px; /* Internal spacing */
-            margin: 40px 0; /* Updated to move to the left (removed 'auto') */
+            margin: 40px 0; /* Removed 'auto' to move it left */
             max-width: 400px; /* Max width of the rectangle */
             text-align: left; /* Left-align text within the box */
         }
@@ -59,6 +60,7 @@
             border-radius: 8px; /* Rounded button edges */
             cursor: pointer; /* Pointer effect on hover */
             transition: background 0.3s; /* Smooth background transition */
+            margin-top: 10px; /* Adds some space above the button */
         }
 
         .download-button:hover {
@@ -68,7 +70,6 @@
 </head>
 
 <body>
-
     <div id="root">
         <main class="text-slate-200 font-outfit main-content">
             <header class="leading-10 lg:leading-tight text-center"> <!-- Centering header text -->
