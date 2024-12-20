@@ -37,8 +37,9 @@
             background-color: rgba(255, 213, 233, 0.8); /* Similar color as title */
             border-radius: 10px; /* Rounded corners */
             padding: 20px; /* Internal spacing */
-            margin: 40px auto; /* Center with margin */
+            margin: 40px 0; /* Updated to move to the left (removed 'auto') */
             max-width: 400px; /* Max width of the rectangle */
+            text-align: left; /* Left-align text within the box */
         }
 
         .cheat-title {
@@ -50,7 +51,7 @@
 
         .download-button {
             display: inline-block; /* Allows for padding and margins */
-            background: linear-gradient(90deg, #FFD5E9, #FFD5E9);
+            background: linear-gradient(90deg, #007BFF, #0056b3); /* Changed to blue gradient */
             border: none; /* No border */
             color: white; /* White text color */
             font-size: 1.5rem; /* Button text size */
@@ -61,7 +62,7 @@
         }
 
         .download-button:hover {
-            background: rgba(255, 182, 193, 0.8); /* Lighten on hover */
+            background: rgb(0, 123, 255); /* Blue on hover */
         }
     </style>
 </head>
